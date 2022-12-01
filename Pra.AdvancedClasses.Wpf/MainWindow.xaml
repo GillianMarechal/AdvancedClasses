@@ -1,0 +1,18 @@
+﻿<Window x:Class="Pra.AdvancedClasses.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pra.AdvancedClasses.Wpf"
+        mc:Ignorable="d"
+        Title="Advanced classes" Height="250.5" Width="600">
+    <Grid>
+        <Button x:Name="btnShowStudent" Content="Toon Student" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="ShowStudent_Click"/>
+        <Label x:Name="lblDetails" Content="" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Height="169" Width="569" Background="#FFB3C4FF"/>
+        <Button x:Name="btnShowEmployee" Content="Toon personeel" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="91" Click="ShowEmployee_Click" />
+        <Button x:Name="btnShowPerson" Content="Toon persoon" HorizontalAlignment="Left" Margin="186,10,0,0" VerticalAlignment="Top" Width="85" Click="ShowPerson_Click" />
+        <Button x:Name="btnMakePersons" Content="Maak personen" HorizontalAlignment="Left" Margin="283,10,0,0" VerticalAlignment="Top" Width="127" Click="MakePersons_Click"  />
+
+    </Grid>
+
+</Window>
